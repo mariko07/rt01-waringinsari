@@ -1,0 +1,6 @@
+{
+  "name": "Portal RT 01 Waringinsari",
+  "description": "Portal informasi lingkungan RT 01 Waringinsari, Condongcatur, Depok, Sleman, D.I. Yogyakarta. Pusat informasi warga, kegiatan, pembangunan, data statistik, dan transparansi keuangan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

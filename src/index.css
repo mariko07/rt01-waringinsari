@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-warm-bg: #FFFFFF;
+  --color-warm-alt: #FFFFFF;
+  --color-cyan-main: #00A4B4;
+  --color-cyan-soft: #E6F7F9;
+  --color-cyan-btn: #008D9B;
+  --color-text-main: #1A1A1A;
+  --color-text-muted: #555555;
+  --color-border-line: #E5E5E0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: #FFFFFF;
+  color: #1A1A1A;
+}
+
+body {
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+}
+
+h1, h2, h3, .font-editorial {
+  font-family: var(--font-sans);
+}
+
+/* Tabular numbers for all stats and financials */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom leaflet map controls styling to match minimal editorial aesthetics */
+.leaflet-container {
+  font-family: var(--font-sans) !important;
+  background-color: #FFFFFF !important;
+  z-index: 1;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #FFFFFF !important;
+  color: #1A1A1A !important;
+  border-radius: 4px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid #E5E5E0 !important;
+  padding: 4px 6px !important;
+}
+
+.leaflet-popup-tip {
+  background: #FFFFFF !important;
+}
